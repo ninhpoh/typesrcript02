@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Áo thun nam",
+      "image": "https://example.com/images/ao-thun-nam.jpg",
+      "price": 199000,
+      "quantity": 50,
+      "created_at": "2025-09-10T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "product_name": "Giày thể thao nữ",
+      "image": "https://example.com/images/giay-nu.jpg",
+      "price": 499000,
+      "quantity": 30,
+      "created_at": "2025-09-11T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "product_name": "Balo laptop",
+      "image": "https://example.com/images/balo-laptop.jpg",
+      "price": 650000,
+      "quantity": 20,
+      "created_at": "2025-09-12T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "product_name": "Tai nghe Bluetooth",
+      "image": "https://example.com/images/tai-nghe.jpg",
+      "price": 299000,
+      "quantity": 100,
+      "created_at": "2025-09-13T16:45:00Z"
+    },
+    {
+      "id": 5,
+      "product_name": "Bình giữ nhiệt",
+      "image": "https://example.com/images/binh-giu-nhiet.jpg",
+      "price": 159000,
+      "quantity": 75,
+      "created_at": "2025-09-14T08:20:00Z"
+    }
+  ]
+}
