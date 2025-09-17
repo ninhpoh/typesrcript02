@@ -9,4 +9,4 @@ function printFunction() {
   console.log("2 giây đã trôi qua");
 }
 
-delayedCallback(printFunction, 2000);           
+delayedCallback(printFunction, 2000);
