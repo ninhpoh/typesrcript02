@@ -23,9 +23,9 @@ function App() {
         <ThemeSwitcher />
         <hr />
       </div> */}
-      {/* <Profile /> */}
+      <Profile />
       {/* <ListUser /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <RandomNumber /> */}
       {/* <ChangeState /> */}
     </>

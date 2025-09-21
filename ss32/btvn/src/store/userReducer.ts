@@ -15,7 +15,11 @@ const initialState = [
   },
 ];
 
-export const userReducer = (state = initialState, action: any) => {
+type Action= {
+  type: string,
+  payload?: unknown
+}
+export const userReducer = (state = initialState, action: Action) => {
   switch (action.type) {
     default:
       return state;

@@ -2,7 +2,12 @@ const initialState = {
   count: 0,
 };
 
-export const counterReducer = (state = initialState, action: any) => {
+type Action ={
+  type: any,
+  payload: unknown,
+}
+
+export const counterReducer = (state = initialState, action: Action) => {
   switch (action.type) {
     case 'INCREMENT':
       return { count: state.count + 1 };

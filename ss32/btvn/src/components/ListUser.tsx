@@ -1,13 +1,14 @@
-import React from 'react';
 import { useSelector } from 'react-redux';
 
 const ListUser = () => {
-  const users = useSelector((state: any) => state.users);
+  const users = useSelector((state: any) => {
+    return state;
+  });
 
   return (
     <div>
       <h2>Danh sách người dùng</h2>
-      <table border="1" cellPadding="8">
+      <table style={{border:"1"}}>
         <thead>
           <tr>
             <th>Id</th>
@@ -19,7 +20,7 @@ const ListUser = () => {
           </tr>
         </thead>
         <tbody>
-          {users.map((u: any) => (
+          {users.map((u:any) => {
             <tr key={u.id}>
               <td>{u.id}</td>
               <td>{u.userName}</td>
@@ -28,7 +29,7 @@ const ListUser = () => {
               <td>{u.address}</td>
               <td>Sửa | Xóa</td>
             </tr>
-          ))}
+          })}
         </tbody>
       </table>
     </div>
