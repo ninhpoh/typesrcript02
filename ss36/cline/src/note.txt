@@ -1,0 +1,3 @@
+loading trong luc cho tai du lieu
+    <LoadingOutlined style={{ fontSize: '100px' }}/>
+
