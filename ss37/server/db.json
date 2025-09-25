@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Tran Van A",
+      "age": "18",
+      "grade": "CNTT-5"
+    },
+    {
+      "id": "2",
+      "name": "Tran Van b",
+      "age": "18",
+      "grade": "CNTT-5"
+    },
+    {
+      "id": "3",
+      "name": "Tran Van c",
+      "age": "18",
+      "grade": "CNTT-5"
+    }
+  ]
+}
