@@ -1,0 +1,26 @@
+{
+  "library": [
+    {
+      "id": "1",
+      "title": "Dragon Ball Daima",
+      "author": "Ninh",
+      "year": 2022,
+      "category": "Novel"
+    },
+    {
+      "id": "2",
+      "title": "Dragon Ball Z",
+      "author": "Ninh",
+      "year": 2020,
+      "category": "Science"
+    },
+    {
+      "id": "83eb",
+      "title": "asdasd",
+      "year": "12423",
+      "category": "Novel",
+      "author": "sadasd",
+      "completed": false
+    }
+  ]
+}
