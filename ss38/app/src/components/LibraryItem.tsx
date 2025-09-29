@@ -2,7 +2,7 @@ import { Card, CardContent, IconButton, Typography } from "@mui/material";
 import { Delete, Edit } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
 import { LoadingOutlined } from "@ant-design/icons";
-import type { RootState } from "../stores";
+import type { AppDispatch, RootState } from "../stores";
 import { useEffect, useState } from "react";
 import { Popconfirm, type PopconfirmProps } from "antd";
 import { deleteLifetchLibrary, fetchLibrary } from "../slices/librarySlice";
@@ -10,7 +10,7 @@ import LibraryEditForm from "./LibraryEditForm";
 import type { Library } from "../slices/librarySlice";
 
 export default function LibraryItem() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
   const { books, loading, error } = useSelector((state: RootState) => state.books);
   const [editingBook, setEditingBook] = useState<Library | null>(null);
 
